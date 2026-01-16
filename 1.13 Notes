@@ -1,0 +1,36 @@
+               Python                     C#
+output         Print()                    Console.WriteLine()
+               print( ,end=') or \n       Console.Write()
+Input          input()                    Console.Readline()
+Variables      fred = input("")           fred = Console.Readline();
+                                          int numbers = 170;
+                                          int num = 67
+                                          int i = 0
+                                          double f =3.2
+
+If statements  If____:                    if (  )
+                 ....                       {
+               Elif:                           }
+                 ....                     else if ()
+                                            {
+                                             }
+                                          else
+                                            { 
+                                              }
+
+Loops           While: #fred !="winter"     while(true)
+                  .... Break                {
+                                                break;}
+               
+                for i in range(10):        foreach (int i in [0,1,2,3,4,5,6,7,8,,9]) 
+                    ....                       {
+                                                 }
+                                            for (#initalizer;#condition boolean expression;#modifier)
+                                            for (int i=0; i<10;i++ #or ++i )
+                                            {
+                                            }
+List            v = [1,2,3]                 List<int> v=[1,2,3]
+                  v[0]                        v.Add(4) // v=[1,2,3,4]
+                  #remember the offset
+                  v.append(4)
+                  #v=[1,2,3,4]
